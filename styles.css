@@ -1,0 +1,131 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+box-sizing: border-box;
+margin: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 190px;
+    flex-shrink: 0;
+    gap: 40px;
+    background-color: #1F2937;
+    
+    color: #F9FAF8;
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    gap:90px;
+    Color: #E5E7EB;
+    font-size:20px;
+}
+.logo{
+    height:auto;
+    width: 50%;
+    object-fit: cover;
+    
+    }
+    .hero{
+        display: flex;
+        align-items: center;
+        gap:570px;
+        padding:20px 140px ;
+        background-color: #1F2937;
+      flex-shrink: 0;
+      
+    }
+
+    .headline{
+      font-size:48px;
+       color: #F9FAF8;
+       font-Weight: 900;
+    }
+    .moreDetails{
+
+        font-size: 18px;
+        Color: #E5E7EB
+    }
+    .button{
+        background-color:#3882F6;
+        padding: 6px 24px;
+        font-weight: 120px;
+        border-radius: 10px;
+        font-size: 18px;
+        Color: #E5E7EB
+
+    }
+    .container{
+    display: flex;
+    flex: 1;
+    
+    margin: 20px;
+    padding:20px 140px;
+    gap:60px;
+    align-items: center;
+    }
+    .containeritem{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 17px;
+    }
+.title{
+        text-align: center;
+        font-size: 60px;
+        margin-right: 60px;
+     
+
+    }
+    img{
+        height:330px;
+        width:370px;
+        border-radius: 20px;
+        margin-left: 50px;
+    }
+    .quote{
+        Background-color: #E5E7EB;
+       font-size: 36px;
+       Color: #1F2937;
+       font-weight: 300;
+       font-style: italic;
+       display: block;
+       padding:20px 690px;
+    }
+    .summary{
+        margin-left:630px;
+        font-weight: 300px;
+    }
+    .sectionc{
+        margin:20px 130px;
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+        color:#E5E7EB;
+        background-color: #3882F6;
+        padding: 70px;
+        border-radius:10px ;
+    }
+    .signup{
+        border: solid #E5E7EB;
+        padding: 10px 20px;
+        font-size: 20px;
+        background-color: #3882F6;
+        color: #E5E7EB;
+        border-radius: 10px;
+
+    }
+    footer{
+        background-color: #1F2937;
+        padding:10px 90px;
+        color: #E5E7EB;
+        text-align: center;
+        font-size:30px
+
+    }
